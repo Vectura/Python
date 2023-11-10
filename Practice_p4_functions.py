@@ -4,7 +4,7 @@ from random import randint
 from datetime import datetime
 import time
 import json
-filename = 'gamers.json' #Кладем sioufdhbvousdhfodiuв переменную название файла, в который потом планируем записывать инфо о результатах игры
+filename = 'gamers.json' #Кладем в переменную название файла, в который потом планируем записывать инфо о результатах игры
 
 def WhosWon(a, b):
     if a > b:
